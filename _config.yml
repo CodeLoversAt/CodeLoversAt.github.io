@@ -4,8 +4,8 @@ email: daniel@codelovers.at
 description: "In this blog I’ll write about programming in general and web development with PHP, Symfony and JavaScript in special."
 baseurl: ""
 url: "http://yourdomain.com"
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: h2online
+github_username:  CodeLoversAt
 
 # Build settings
 markdown: kramdown
@@ -17,3 +17,7 @@ kramdown:
 permalink: pretty
 
 excerpt_separator: "\n\n"
+
+sass:
+    style: :compressed
+    sass_dir: _sass
